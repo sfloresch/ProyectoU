@@ -14,9 +14,16 @@ namespace Proyecto.Controllers
             return View();
         }
 
-        public ActionResult Asistencia()
+        public ActionResult Rutinas()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Rutinas.";
+
+            return View();
+        }
+
+        public ActionResult Progreso()
+        {
+            ViewBag.Message = "Progreso.";
 
             return View();
         }
@@ -27,5 +34,21 @@ namespace Proyecto.Controllers
 
             return View();
         }
+
+        public ActionResult Desafio()
+        {
+            ViewBag.Message = "Desafiaaame.";
+
+            return View();
+        }
+
+        public ActionResult Asistencia()
+        {
+            ViewBag.Message = "ATRASADOOOO COTEEE.";
+
+            return View();
+        }      
+       
+
     }
 }
