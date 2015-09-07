@@ -44,8 +44,8 @@ namespace Proyecto.Controllers
 
         public ActionResult Asistencia()
         {
-            ViewBag.Message = "ATRASADOOOO COTEEE.";
 
+            ViewBag.TituloAsistencias = "ASISTENCIAS A DEPORTES";
             return View();
         }      
        

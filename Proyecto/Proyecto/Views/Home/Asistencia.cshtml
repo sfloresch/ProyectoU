@@ -1,7 +1,48 @@
 ﻿@{
-    ViewBag.Title = "Asistencia";
+    ViewBag.Title = "Asistencias";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+@Styles.Render("~/Content/Style.css")
+@Styles.Render("~/Content/css")
+<div class="alert alert-info">
+    <i class="fa fa-"></i><b>@ViewBag.TituloAsistencias</b><br />
+</div>
+<div style="width:900px;">
+    <table style="width:850px;text-align:center;">
+        <tr>
+            <td style="text-align: center;">
+                <span id="ctl00_ContentPlaceHolder1_wucAsistencias1_lblMsg" style="color:Red;font-family:Verdana;font-size:Small;font-weight:bold;"></span>
+            </td>
+        </tr>
+        <tr style="font-size: xx-small">
+            <td align="center" style="font-size: x-small;">
+                <table style="text-align: center; border-style: solid; border-color: #d6dae1;" border="1px" cellpadding="1px" cellspacing="0px">
+                    <tr style="text-align: center;">
+                        <td class="cellText" style="font-family: Verdana; font-size: x-small; font-weight: bold;">
+                            &nbsp;Total Horas Registradas:
+                            X&nbsp;
+                        </td>
+                        <td class="cellText" style="font-family: Verdana; font-size: x-small; font-weight: bold;">
+                            &nbsp;Total Castigos Registrados:
+                            X&nbsp;
+                        </td>
+                        <td class="cellText" style="font-family: Verdana; font-size: x-small; font-weight: bold;">
+                            &nbsp;Término Semestre:
+                            <span id="ctl00_ContentPlaceHolder1_wucAsistencias1_lblTerminoSemestre">17-12-2015</span>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cellText" style="font-family: Verdana; font-size: x-small;" colspan="3">
+                            NOTA: Sólo se contarán las asistencias
+                            válidas hasta la fecha de término de semestre
+                            <br />
+                            (sumar valores de la columna &quot;Asistencia&quot; hasta la fecha de término de semestre,<br />
+                            &nbsp;las asistencias que no tengan un valor no se cuentan como asistencia válida)
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
 
-<p>Use this area to provide additional information.</p>
+    </table>
+</div>
