@@ -11,6 +11,7 @@ namespace Proyecto.Controllers
         public ActionResult Index()
         {
             ViewBag.Photo = "http://www.uai.cl/galeria-de-imagenes/image.raw?format=raw&type=orig&id=7290";
+            ViewBag.PhotoMotivacion = "http://www.healthyfithappy.es/s/cc_images/cache_34481916.jpg";
             return View();
         }
 
