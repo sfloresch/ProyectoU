@@ -10,17 +10,18 @@ namespace Proyecto.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Photo = "http://www.uai.cl/galeria-de-imagenes/image.raw?format=raw&type=orig&id=7290";
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Asistencia()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult MisDatos()
         {
             ViewBag.Message = "Your contact page.";
 

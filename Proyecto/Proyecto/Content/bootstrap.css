@@ -4926,7 +4926,10 @@ a.list-group-item.active > .badge,
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
-
+.imagenindex{
+    position: relative;
+    margin-left:150px;
+}
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
