@@ -4927,8 +4927,13 @@ a.list-group-item.active > .badge,
   margin-left: 3px;
 }
 .imagenindex{
-    position: relative;
-    margin-left:150px;
+    position: fixed;
+    margin-left:350px;
+    margin-top:20px;
+}
+.imagenmotivacion{
+   position: fixed;
+   margin-top:20px;
 }
 .jumbotron {
   padding: 30px;
