@@ -182,9 +182,9 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Movies.mdf" />
-    <Content Include="App_Data\Movies_log.ldf">
-      <DependentUpon>Movies.mdf</DependentUpon>
+    <Content Include="App_Data\MovieDBs.mdf" />
+    <Content Include="App_Data\MovieDBs_log.ldf">
+      <DependentUpon>MovieDBs.mdf</DependentUpon>
     </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
