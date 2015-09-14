@@ -4938,12 +4938,12 @@ a.list-group-item.active > .badge,
     float:left;
 }
 #imagenindex{
-   position: fixed;
    max-width:100%;
    height:auto;    
 }
 #imagenmotivacion{
-   position: fixed;
+   max-width:100%;
+   height:auto;  
 }
 .jumbotron {
   padding: 30px;
